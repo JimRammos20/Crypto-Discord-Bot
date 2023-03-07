@@ -209,6 +209,7 @@ async def command_list(ctx):
         embed.add_field(name="USDT Price:", value="!usdt", inline=False)
         embed.add_field(name="BUSD Price:", value="!busd", inline=False)
         embed.add_field(name="USDC Price:", value="!usdc", inline=False)
+        embedVar.set_footer(text="Crypto Discord Bot")
         await ctx.send(embed=embed)
 
 client.run("[Enter Token]")
